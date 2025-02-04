@@ -27,30 +27,6 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_b",
-						"type": "uint256"
-					}
-				],
-				"name": "calculateSum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -130,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"StorageFactory.sol": "SimpleStorage"
+			"SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -144,12 +120,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"StorageFactory.sol": {
-			"keccak256": "0x4caac0e7b178e9523dc5979e7a724b4cab5f5156a164f2b547b70417148805e9",
+		"SimpleStorage.sol": {
+			"keccak256": "0xab8dc082fad22a701d48ab799ca81b14f5bb8e3a94033bebe3044a6d94f60ef2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://202200ca8f8281e9360d9143b819d0c7ef77b6f843136c19bdb26ec75079e379",
-				"dweb:/ipfs/QmcmzYdrFqKo5fr4pXMe13ShvMbchPwzoRk7skw72gDeYM"
+				"bzz-raw://ccacae2014fa084bcbe0d9baf00075938d93a1f879fff6a7b8fcde94752113ec",
+				"dweb:/ipfs/Qma56NMksBCi73FeJNshiAmDosx6XrmWfbzuBEJEMUCVC9"
 			]
 		}
 	},

@@ -13,8 +13,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "simpleStorage",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfSimpleStorageContracts",
 				"outputs": [
 					{
 						"internalType": "contract SimpleStorage",
@@ -23,6 +29,43 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newSimpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -54,19 +97,19 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x66dec8b77d17d3ea98cc9664c57c467c4a44dc0871af4a1987f7d6bd054d53f0",
+			"keccak256": "0xab8dc082fad22a701d48ab799ca81b14f5bb8e3a94033bebe3044a6d94f60ef2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5c057032bca8f7535b49c3ef8fa48701032994c837667da1c7b5730acd51b9dc",
-				"dweb:/ipfs/QmTbtJdsjENgUGwStNNvQkbUjQT2b4TngBFTKMba425rt6"
+				"bzz-raw://ccacae2014fa084bcbe0d9baf00075938d93a1f879fff6a7b8fcde94752113ec",
+				"dweb:/ipfs/Qma56NMksBCi73FeJNshiAmDosx6XrmWfbzuBEJEMUCVC9"
 			]
 		},
 		"StorageFactory.sol": {
-			"keccak256": "0xa6b53c7b69850476af396456189117823e90a1f6801a658da32476594e262d0c",
+			"keccak256": "0x59288e6ea278e563321b5a79a09f5959fd6b36e9e4620e014aa28c1ecef3f446",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0181e50b1c6b0e6efbb5b3c323ea072899ada4827510989b62b56dc2f4f5849d",
-				"dweb:/ipfs/QmRwz5F489iEUCjLRr7xZiw6PHxZqrP6mwFRGS3eCe3PQu"
+				"bzz-raw://5e8d2f0106a7ada3941283c187926a4faee98e034d47e0412c47d824bb36b892",
+				"dweb:/ipfs/QmaPkSpyEEXK3VuRitCMm7163dtxWYz3mp2uev84RUjN7s"
 			]
 		}
 	},
